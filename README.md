@@ -12,7 +12,9 @@ easily contain thousands of items in mentioned global obfuscation array.
 
 For an easy example, following obfuscated code
 ~~~js
-var _0x01ff=["foo",0,1,"bar"];function f(){return _0x01ff[3]}var a=_0x01ff[0];a=[_0x01ff[1]+1,_0x01ff[1]?_0x01ff[_0x01ff[_0x01ff[2]]]:_0x01ff[2]];switch(f(_0x01ff[0])){case _0x01ff[0]:a=_0x01ff[0];break;default:a=_0x01ff[2];break;}
+var _0x01ff=["foo",0,1,"bar"];function f(){return _0x01ff[3]}var a=_0x01ff[0];a=[_0x01ff[1]+1,_0x01ff[1]?
+_0x01ff[_0x01ff[_0x01ff[2]]]:_0x01ff[2]];switch(f(_0x01ff[0])){case _0x01ff[0]:a=_0x01ff[0];break;
+default:a=_0x01ff[2];break;}
 ~~~
 
 can be deobfusated to mode understandable version below.
