@@ -17,7 +17,7 @@ _0x01ff[_0x01ff[_0x01ff[2]]]:_0x01ff[2]];switch(f(_0x01ff[0])){case _0x01ff[0]:a
 default:a=_0x01ff[2];break;}
 ~~~
 
-can be deobfusated to mode understandable version below.
+can be deobfusated to a more understandable version below.
 ~~~js
 var _0x01ff = ["foo",0,1,"bar"];
 function f() {
