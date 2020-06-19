@@ -1,5 +1,7 @@
 # JavaScript Array Ref Deobfuscator
 
+[![Python version](https://img.shields.io/badge/Python-3-blue.svg?style=flat-square)](https://www.python.org/)
+
 JavaScript deobfuscator which can revert *Array Ref* obfuscation format. This
 format is characteristic by global array in the beginning of the file containing
 all values and method names used in the original source code. Obfuscated code
