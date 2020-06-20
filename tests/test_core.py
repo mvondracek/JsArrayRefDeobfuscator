@@ -158,6 +158,15 @@ class Test_deobfuscate(TestCase):
             'new C(9, 8, "foo");')
         self.assertEqual(expected, deobfuscate(obfuscated))
 
+    def test_context_awareness(self):
+        """Test for different contexts."""
+        obfuscated = 'var _0x01ff=[9,"context aware \\"_0x01ff[0]\\""];var a=_0x01ff[0];a=_0x01ff[1];'
+        expected = (
+            'var _0x01ff = [9,"context aware \\"_0x01ff[0]\\""];\n' +
+            'var a = 9;\n' +
+            'a = "context aware \\"_0x01ff[0]\\"";')
+        self.assertEqual(expected, deobfuscate(obfuscated))
+
 
 # noinspection PyPep8Naming
 class Test_scan_obfuscation_array(TestCase):
