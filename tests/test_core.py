@@ -1,15 +1,8 @@
-from typing import TextIO
 from unittest import TestCase
 
 from slimit.parser import Parser
 
 from jsard.core import deobfuscate, scan_obfuscation_array
-
-
-def assertEqualIO(test: TestCase, expected: TextIO, actual: TextIO) -> None:
-    expected.seek(0)
-    actual.seek(0)
-    test.assertEqual(expected.read(), actual.read())
 
 
 # noinspection PyPep8Naming
