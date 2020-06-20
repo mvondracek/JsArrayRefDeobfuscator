@@ -155,9 +155,9 @@ class Test_deobfuscate(TestCase):
         """Test for different contexts."""
         obfuscated = 'var _0x01ff=[9,"context aware \\"_0x01ff[0]\\""];var a=_0x01ff[0];a=_0x01ff[1];'
         expected = (
-            'var _0x01ff = [9,"context aware \\"_0x01ff[0]\\""];\n' +
-            'var a = 9;\n' +
-            'a = "context aware \\"_0x01ff[0]\\"";')
+                'var _0x01ff = [9,"context aware \\"_0x01ff[0]\\""];\n' +
+                'var a = 9;\n' +
+                'a = "context aware \\"_0x01ff[0]\\"";')
         self.assertEqual(expected, deobfuscate(obfuscated))
 
 
