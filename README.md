@@ -42,3 +42,15 @@ For more short examples, please see implemented unit tests ([`/tests`](/tests)).
 ```bash
 $ ./jsardcli.py --help
 ```
+
+
+## Publication
+
+This software was developed during research on ***TBA***.
+Please see the paper for more details.
+
+
+# Links
+
+- [UNHcFREG, *BigScreen and Unity Virtual Reality Attacks and the Man in The Room Attack*](https://www.unhcfreg.com/single-post/2019/02/19/bigscreen-and-unity-virtual-reality-attacks)
+- [University of New Haven, *University of New Haven Researchers Discover Critical Vulnerabilities in Popular Virtual Reality Application*](https://www.newhaven.edu/news/releases/2019/discover-vulnerabilities-virtual-reality-app.php)
